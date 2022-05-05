@@ -47,4 +47,4 @@ elif comp == 2:
     elif jogador == 0:
         print('JOGADOR GANHOU')
     else:
-        print('JOGADA INVALIDA')
+        print('\033[31mJOGADA INVALIDA')
