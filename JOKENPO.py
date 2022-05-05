@@ -28,3 +28,13 @@ if comp == 0:
         print('Computador Vence!')
     else:
         print('JOGADA INVALIDA')
+
+elif comp == 1:
+    if jogador == 1:
+        print('EMPATOU')
+    elif jogador == 0:
+        print('COMPUTADOR GANHOU')
+    elif jogador == 2:
+        print('JOGADOR GANHOU')
+    else:
+        print('JOGADA INVALIDA')
